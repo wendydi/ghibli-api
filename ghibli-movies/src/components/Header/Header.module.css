@@ -1,0 +1,35 @@
+.totoro {
+    max-width: 30px;
+    transition: 0.3s;
+  }
+  
+  .totoro:hover {
+    transform: scale(1.4);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .navbar li {
+    background-color: rgb(252, 242, 229);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #ff5c5c;
+    transition: 0.3s;
+  }
+  
+  .navbar li:hover {
+    background-color: #fa7d7d;
+    color: #fcf2e5;
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin-block: 6rem;
+  }
+  

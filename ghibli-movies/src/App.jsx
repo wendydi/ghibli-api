@@ -1,29 +1,16 @@
 import './App.css'
-import Card from './components/Card'
-import Infos from './components/Infos'
+import Home from './pages/Home'
+import Infos from './pages/Infos'
 
 function App() {
 
   return (
     <>
-    <header> 
-      <img className='totoro' src='/totoro.png' /> 
-      <ul className='navbar'>
-        <li> Movies </li>
-        <li> Infos </li>
-        <li> Curiosities </li>
-      </ul>
-    </header>
-      <h1> Studio Ghibli - スタジオジブリ作品 </h1>
-      <section className ='cards'>
-        <Card />
-      </section>
 
-      <h2> Infos </h2>
+      <Home />
+      <Infos />
 
-      <section className='infos'>
-        <Infos />
-      </section>
+
     </>
   )
 }
