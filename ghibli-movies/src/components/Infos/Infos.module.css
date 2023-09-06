@@ -1,0 +1,36 @@
+.infos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 30px; 
+    box-shadow: 5px 10px 10px #505050;
+}
+
+.description {
+    width: 100%;
+    width: 500px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.details {
+    max-width: 800px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.rotten {
+    width: 20px;
+}
+
+.all_details {
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
