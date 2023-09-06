@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
 
 function Header() {
@@ -5,11 +6,11 @@ function Header() {
     return(
         <section>
             <header> 
-                <img className={styles.totoro} src='/totoro.png' /> 
+                <Link to ="/"><img className={styles.totoro} src='/totoro.png' /> </Link>
                 <ul className={styles.navbar}>
-                    <li> Movies </li>
-                    <li> Infos </li>
-                    <li> Curiosities </li>
+                    <li> <Link to ="/"> Movies </Link></li>
+                    <li> <Link to ="/infos"> Infos </Link></li>
+                    <li> <Link to ="/"> Curiosities </Link></li>
                 </ul>
                 </header>
         </section>

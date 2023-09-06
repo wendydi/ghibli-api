@@ -17,11 +17,10 @@ function Infos(){
     }, [])
 
     return(
-       
+        <Header />
+        <Footer />
         infos.map( info => (
-           
              <section className={styles.infos}>  
-             <Header></Header>
                 <div className={styles.title_banner}>
                     <h2> {info.title} </h2>
                     <img className={styles.banner} src={info.movie_banner} />
@@ -34,10 +33,10 @@ function Infos(){
                     <p className={styles.details}> {info.running_time} minutes </p>
                     <p className={styles.details}> <img className={styles.rotten} src='./assets/Rotten_Tomatoes.png' /> {info.rt_score} </p>
                 </div>
-                <Footer></Footer>
             </section>
                     ))
-        
+
+     
     )
 
 }

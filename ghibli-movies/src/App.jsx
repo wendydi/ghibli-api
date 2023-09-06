@@ -1,17 +1,10 @@
 import './App.css'
-import Home from './pages/Home'
-import Infos from './pages/Infos'
+import AppRoutes from './routes'
 
 function App() {
 
   return (
-    <>
-
-      <Home />
-      <Infos />
-
-
-    </>
+      <AppRoutes />
   )
 }
 

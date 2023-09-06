@@ -11,7 +11,8 @@ function Home() {
         <section className='cards'>
             <Card />
         </section>
-        <Footer /></>
+        <Footer />
+        </>
     )
 }
 
