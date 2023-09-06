@@ -1,0 +1,20 @@
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: #353535;
+    box-shadow: 5px 5px 10px #575757;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 300px;
+    padding: 20px;
+}
+
+.card h3 {
+    margin: 0px 10px;
+}
+
+.card p {
+    margin: 15px;
+}
