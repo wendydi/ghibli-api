@@ -21,7 +21,7 @@ function Card() {
                 <tr>
                     <td><img src={filme.image} alt="" /></td>
                 </tr>
-                    <td><h3> {filme.title} - {filme.original_title} </h3> </td>
+                    <td><h3> {filme.title} - {filme.original_title} </h3></td>
                 <tr>
                     <td><p> {filme.director} - {filme.release_date} </p> </td>
                 </tr>
