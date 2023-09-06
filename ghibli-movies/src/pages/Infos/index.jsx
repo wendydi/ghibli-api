@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 import styles from './Infos.module.css'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
 
 function Infos(){
 
@@ -17,8 +15,8 @@ function Infos(){
     }, [])
 
     return(
-        <Header />
-        <Footer />
+        
+        
         infos.map( info => (
              <section className={styles.infos}>  
                 <div className={styles.title_banner}>
@@ -34,9 +32,8 @@ function Infos(){
                     <p className={styles.details}> <img className={styles.rotten} src='./assets/Rotten_Tomatoes.png' /> {info.rt_score} </p>
                 </div>
             </section>
-                    ))
 
-     
+                    ))
     )
 
 }
