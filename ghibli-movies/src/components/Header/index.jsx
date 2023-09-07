@@ -10,7 +10,7 @@ function Header() {
                 <ul className={styles.navbar}>
                     <li> <Link to ="/movies"> Movies </Link></li>
                     <li> <Link to ="/infos"> Infos </Link></li>
-                    <li> <Link to ="/curiosities"> Curiosities </Link></li>
+                    <li> <Link to ="/characters"> Characters </Link></li>
                 </ul>
                 </header>
         </section>

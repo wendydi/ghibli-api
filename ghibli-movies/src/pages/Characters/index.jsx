@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import styles from './Curiosities.module.css'
-import { Link } from 'react-router-dom'
+import styles from './Characters.module.css'
 
-function Curiosities() {
+function Characters() {
     const [chars, setChars] = useState([])
     const [currentIndex, setCurrentIndex] = useState(null)
 
@@ -46,4 +45,4 @@ function Curiosities() {
     
 }
 
-export default Curiosities
+export default Characters
